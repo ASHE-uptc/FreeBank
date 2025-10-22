@@ -132,7 +132,7 @@ public class App {
                     transactions.add(deposit);
                     TransactionFileManager.saveTransactionsToCSV(transactions, "transactions.txt");
                     System.out.println("Deposit added Successfully!");
-                    System.out.println("This is your actual balance: "+(accType.getBA_balance()+deposit.getDep_ammount());
+                    System.out.println("This is your actual balance: "+(accType.getBA_balance()+deposit.getDep_ammount()));
 
             } catch (Exception e) {
                 System.out.println("Invalid Input Exception. Returning to Main Menu...");
